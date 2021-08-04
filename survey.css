@@ -1,0 +1,85 @@
+body {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: var(--color-darkblue);
+  background-image: linear-gradient(
+      115deg,
+      rgba(65, 119, 199, 0.7),
+      rgba(158, 58, 88, 0.8)
+    ),
+    url(./images/st-louis-ballpark.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#body {
+  width: 640px;
+  padding: 20px;
+  margin: auto;
+  border-radius: 10px;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-size: 20px;
+  color: white;
+  z-index: -1;
+}
+
+#title {
+  color: white;
+}
+
+#description {
+  color: white;
+}
+
+#name {
+  width: 600px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+#email {
+  width: 600px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+#number {
+  width: 600px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+#dropdown {
+  width: 632.5px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+#comment {
+  width: 600px;
+  padding: 15px;
+  border: none;
+}
+
+#submit {
+  width: 632.5px;
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 3%;
+  color: white;
+  background-color: rgb(39, 131, 189);
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MLB Fan Survey</title>
+    <link rel="stylesheet" href="survey.css" />
+  </head>
+  <!--Main Content-->
+  <body>
+     <h1 id="title">MLB Fan Survey Form</h1>
+
+     <p id="description">
+      A fun little form to figure out what kind of MLB fan your are
+     </p>
+
+     <div id ="body">
+
+     <form id="survey-form">
+        <label id="name-label" for="name"><p>Name:</p></label>
+        <input id="name"  type="text" placeholder="Enter Your Name" required>
+        
+        <label id="email-label" for="email"><p>Email:</p></label>
+        <input id="email"  type="text" placeholder="Enter Your Email" required>
+        
+        <label id="number-label" for="number"><p>Age:</p></label>
+        <input id="number"  type="number" placeholder="Enter Your Age" min="12"
+        max="112" required>
+
+        <p>Which MLB team are you a fan of:</p>
+        <select id="dropdown">
+        
+            <option value="default">I don't have one</option>
+            <option value="Arizona Diamondbacks">Arizona Diamondbacks</option>
+            <option value="Atlanta Braves">Atlanta Braves</option>
+            <option value="Baltimore Orioles">Baltimore Orioles</option>
+            <option value="Boston Red Sox">Boston Red Sox</option>
+            <option value="Chicago White Sox">Chicago White Sox</option>
+            <option value="Chicago Cubs">Chicago Cubs</option>
+            <option value="Cincinnati Reds">Cincinnati Reds</option>
+            <option value="Cleveland Indians">Cleveland Indians</option>
+            <option value="Colorado Rockies">Colorado Rockies</option>
+            <option value="Detroit Tigers">Detroit Tigers</option>
+            <option value="Houston Astros">Houston Astros</option>
+            <option value="Kansas City Royals">Kansas City Royals</option>
+            <option value="Los Angeles Angels">Los Angeles Angels</option>
+            <option value="Los Angeles Dodgers">Los Angeles Dodgers</option>
+            <option value="Miami Marlins">Miami Marlins</option>
+            <option value="Milwaukee Brewers">Milwaukee Brewers</option>
+            <option value="Minnesota Twins">Minnesota Twins</option>
+            <option value="New York Yankees">New York Yankees</option>
+            <option value="New York Mets">New York Mets</option>New York Mets
+            <option value="Oakland Athletics">Oakland Athletics</option>
+            <option value="Philadelphia Phillies">Philadelphia Phillies</option>
+            <option value="Pittsburgh Pirates">Pittsburgh Pirates</option>
+            <option value="San Diego Padres">San Diego Padres</option>
+            <option value="San Francisco Giants">San Francisco Giants</option>
+            <option value="Seattle Mariners">Seattle Mariners</option>
+            <option value="St. Louis Cardinals">St. Louis Cardinals</option>
+            <option value="Tampa Bay Rays">Tampa Bay Rays</option>
+            <option value="Texas Rangers">Texas Rangers</option>
+            <option value="Toronto Blue Jays">Toronto Blue Jays</option>
+            <option value="Washington Nationals">Washington Nationals</option>
+
+        </select>
+
+       <p>Appoximately how many regular season games do you watch during the course of the season?</p> 
+
+       <input type="radio" name="time" value="1">0 Games </input>
+       <br>
+       <input type="radio" name="time" value="2">1-10 Games</input>
+       <br>
+       <input type="radio" name="time" value="3">11-30 Games</input>
+       <br>
+       <input type="radio" name="time" value="4">31-60 Games</input>
+       <br>
+       <input type="radio" name="time" value="5">61-100 Games</input>
+       <br>
+       <input type="radio" name="time" value="6">101-162 Games</input>
+
+        <p>How do you choose to consume baseball games? (Check all that apply)</p>
+
+       <input type="checkbox" name="viewing" value="1">Going to the Ballpark</input> 
+       <br>
+       <input type="checkbox" name="viewing" value="1">Cable</input> 
+       <br>
+       <input type="checkbox" name="viewing" value="1">Streaming Services</input> 
+       <br>
+       <input type="checkbox" name="viewing" value="1">Game Highlights</input> 
+       <br>
+       <input type="checkbox" name="viewing" value="1">Radio</input> 
+       <br>
+       <input type="checkbox" name="viewing" value="1">Newspaper</input> 
+        <br>
+
+
+        <p>What's at least one thing MLB can do to attract more people to it's sport? Feel free to give more suggestions if you have them!</p>
+       <textarea id="comment" cols="40" rows="10" placeholder="Add Your Comment Here..."></textarea>
+       <br>
+       <input type="submit" value="Submit" id="submit">
+
+       </id>
+  </body>
+  <!--Main Content-->
+</html>
